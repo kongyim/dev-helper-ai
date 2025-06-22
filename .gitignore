@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+*.log.*
+*.out
+*.err
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# dotenv
+.env
+.env.*.local
+
+# Vite (frontend)
+dist/
+.vite/
+
+# React build output (if outside vite's dist)
+build/
+
+# NestJS
+coverage/
+dist/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Output from tailwind CLI (optional)
+tailwind.css
+*.css.map
+
+# Local dev files
+*.local.js
+*.local.ts
+*.local.json
+
+# Optional: remove if using Git in containers
+.git/
